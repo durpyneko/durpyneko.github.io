@@ -1,0 +1,19 @@
+/* Hide most visible items */
+[class*=guilds],
+[class*=chat],
+[aria-label="Channel header"],
+[class*=sidebar],
+[class*=privateChannels],
+[class*=container],
+[class*=scroller],
+[class*=nowPlayingColumn] {
+    background: none !important;
+}
+
+.bg__12180 {
+    background-image: var(--bg-image-url);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: var(--bg-opacity);
+}
