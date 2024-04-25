@@ -17,7 +17,7 @@
 :root {
     --bg-opacity: 0.2;
     --brand-experiment: rgb(170, 10, 162);
-    --bg-image-url: url('https://cdn.discordapp.com/attachments/1227468494644183150/1231727156028248105/QWAMvGZ.jpg?ex=6626dece&is=66258d4e&hm=c2779fc3ae7d7035de02a66f994f60bc66dc739f4062cbd3e309fabe1f5d3208&');
+    --bg-image-url: url(https://github.durpy.dev/public/images/dc-bg.jpg);
 }
 
 :root {
@@ -81,7 +81,7 @@
     right: 5px;
     width: 50px;
     height: 50px;
-    background-image: url('https://cdn.discordapp.com/attachments/1039951514631933992/1231675026604953731/2GN4KDu.png?ex=6637d1c1&is=66255cc1&hm=cc4cd5f17c3eecbcce2b98db7cfc43f0e4eca1e4fb3b3c8c875ab4f43d8208cd&');
+    background-image: url(https://github.durpy.dev/public/images/nekuri.png);
     background-size: cover;
     transition: all 0.5s ease-in-out 0.5s;
 }
@@ -159,6 +159,6 @@ span[class^=botTag]::after {
 
 /* Replace the vencord settings donation banner image */
 img[role="presentation"] {
-    content: url('https://files.catbox.moe/us7gte.gif') !important;
+    content: url('https://github.durpy.dev/public/images/caramel-kikuri-transparent.gif') !important;
     transform: rotate(0deg) !important;
 }
