@@ -1,0 +1,29 @@
+/*
+* @name Kikuri Loader (Shiggy loader) 
+* @author blisterexe edited by durpyneko
+* @description funny loading icon for discord 
+* @version 1.0
+*/
+
+.container__827e6.fixClipping__84826>.content_de05de {
+    position: relative;
+}
+
+.container__827e6.fixClipping__84826>.content_de05de .ready__61f2f {
+    display: none;
+}
+
+.container__827e6.fixClipping__84826>.content_de05de .ready__61f2f+.text__35f5c {
+    top: 50px;
+}
+
+.container__827e6.fixClipping__84826>.content_de05de::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    background: url(https://github.durpy.dev/public/images/kikuri.gif) center/80% no-repeat !important;
+    image-rendering: pixelated;
+}

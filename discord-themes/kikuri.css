@@ -1,19 +1,17 @@
 /* custom icon colors */
 @import url(https://ukrioo.github.io/cssCord/Other/iconColors.css);
 
+/* Kikuri as loading animation on client start */
+@import url(https://github.durpy.dev/discord-themes/kikuri-loader.css);
+
+/* simple background */
+@import url(https://github.durpy.dev/discord-themes/simple-background.css);
+
 /* change accent color */
 @import url(https://dablulite.github.io/css-snippets/AccentSwap/import.css);
 
-/* Kikuri as loading animation on client start */
-@import url(https://raw.githubusercontent.com/durpyneko/Kikuri-loader/main/main.css);
-
-
 /* change icons after update */
 @import url(https://raw.githubusercontent.com/MrDiamondDog/noUglyIconsTheme/master/theme.css);
-
-/* simple background */
-@import url(https://raw.githubusercontent.com/durpyneko/discord-simple-background/main/simple-background.css);
-
 
 /* start theme */
 :root {
