@@ -1,7 +1,3 @@
-<body>
-  <div id="text"></div>
-</body>
-
 <script>
   const images = [
     "1500x500.jpeg",
@@ -86,8 +82,6 @@
   document.addEventListener("DOMContentLoaded", () => {
     console.log("Loaded!");
 
-    const text = document.getElementById("text");
-
-    text.textContent = getRandomImage();
+    document.body.textContent = getRandomImage(); // "/public/kikuri/" +
   });
 </script>
