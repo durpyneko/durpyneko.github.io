@@ -15,150 +15,150 @@
 
 /* start theme */
 :root {
-    --bg-opacity: 0.2;
-    --brand-experiment: rgb(170, 10, 162);
-    --bg-image-url: url(https://github.durpy.dev/public/images/dc-bg.jpg);
+  --bg-opacity: 0.2;
+  --brand-experiment: rgb(170, 10, 162);
+  --bg-image-url: url(https://github.durpy.dev/public/images/dc-bg.jpg);
 }
 
 :root {
-    --icon-normal: DarkOrchid;
-    --icon-hover: DarkSlateBlue;
-    --icon-muted: grey;
-    --interactive-muted: var(--icon-muted);
+  --icon-normal: DarkOrchid;
+  --icon-hover: DarkSlateBlue;
+  --icon-muted: grey;
+  --interactive-muted: var(--icon-muted);
 }
 
 /* Element Swap (Accent Colors) */
 :root:root {
-    --accent-h: 332;
-    --accent-s: 72%;
-    --accent-l: 42%;
+  --accent-h: 332;
+  --accent-s: 72%;
+  --accent-l: 42%;
 }
 
 /* main theme colors */
 .theme-dark {
-    --background-1: #1d101d !important;
-    --background-2: #0f090f !important;
+  --background-1: #1d101d !important;
+  --background-2: #0f090f !important;
 }
 
 :root {
-    --background-primary: var(--background-1) !important;
-    /* Text area */
-    --background-secondary: var(--background-1) !important;
-    /* Channels and users */
-    --background-tertiary: var(--background-2) !important;
-    /* Servers and title bar */
-    --button-accent-active: #8358b7 !important;
-    --background-secondary-alt: var(--background-2) !important;
-    --channeltextarea-background: #2c1c3f !important;
-    --text-link: #8358b7 !important;
+  --background-primary: var(--background-1) !important;
+  /* Text area */
+  --background-secondary: var(--background-1) !important;
+  /* Channels and users */
+  --background-tertiary: var(--background-2) !important;
+  /* Servers and title bar */
+  --button-accent-active: #8358b7 !important;
+  --background-secondary-alt: var(--background-2) !important;
+  --channeltextarea-background: #2c1c3f !important;
+  --text-link: #8358b7 !important;
 }
 
 /* message background */
 .message_ccca67:hover {
-    background-color: #2c1c3f71 !important;
-    border-radius: 10px 10px 10px 10px;
+  background-color: #2c1c3f71 !important;
+  border-radius: 10px 10px 10px 10px;
 }
 
-[class*=mentioned] {
-    background-color: #4e0e468c;
-    border-radius: 0px 10px 10px 0px;
+[class*="mentioned"] {
+  background-color: #4e0e468c;
+  border-radius: 0px 10px 10px 0px;
 }
 
-[class*=mentioned]:hover {
-    background-color: #2c1c3f71 !important;
+[class*="mentioned"]:hover {
+  background-color: #2c1c3f71 !important;
 }
 
-[class*=mentioned]::before {
-    background-color: #ca12b2 !important;
+[class*="mentioned"]::before {
+  background-color: #ca12b2 !important;
 }
 
 /* Kikuri ontop of each menu popup */
 [id*="popout_"]::after,
-[class*=menu]::after {
-    content: "";
-    position: absolute;
-    top: -50px;
-    right: 5px;
-    width: 50px;
-    height: 50px;
-    background-image: url(https://github.durpy.dev/public/images/nekuri.png);
-    background-size: cover;
-    transition: all 0.5s ease-in-out 0.5s;
+[class*="menu"]::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  background-image: url(https://github.durpy.dev/public/images/nekuri.png);
+  background-size: cover;
+  transition: all 0.5s ease-in-out 0.5s;
 }
 
 /* Custom Emoji Button */
 .sprite__294b3.spriteColored__9a869 {
-    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-    background-size: 24px;
+  background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+  background-size: 24px;
 }
 
 .sprite__294b3.spriteGreyscale__750f4 {
-    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
-    mask-size: 24px;
+  mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+  mask-size: 24px;
 }
 
 /* revert bot "APP" to "BOT" */
-span[class^=botTag]>span[class^=botText] {
-    display: none;
+span[class^="botTag"] > span[class^="botText"] {
+  display: none;
 }
 
-span[class^=botTag]::after {
-    content: "BOT";
+span[class^="botTag"]::after {
+  content: "BOT";
 }
 
 /* replace titlebar wordmark */
-.wordmark__5b8c9 {
-    display: none;
+.wordmark_a934d8 {
+  display: none;
 }
 
-.titleBar__710b0::after {
-    content: "‎ ‎ Kikuri <3";
-    color: rgba(255, 255, 255, 0.5);
-    position: fixed;
-    left: 0
+.titleBar_a934d8::after {
+  content: "‎ ‎ Kikuri <3";
+  color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  left: 0;
 }
 
 .markup_a7e664 a {
-    color: #8358b7 !important;
+  color: #8358b7 !important;
 }
 
 .messageContent_abea64 {
-    border-color: #2c1c3f !important;
-    border-width: 2px !important;
+  border-color: #2c1c3f !important;
+  border-width: 2px !important;
 }
 
 /* end theme */
 
 /* chat input */
 .form_d8a4a1 {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .channelTextArea_c2094b {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .scrollableContainer_ff917f {
-    border-radius: 0px !important;
-    padding: 5px !important;
+  border-radius: 0px !important;
+  padding: 5px !important;
 }
 
 .form_d8a4a1:after {
-    background: none !important;
+  background: none !important;
 }
 
 .typing__6fd1d {
-    position: absolute !important;
-    bottom: 54px !important;
-    left: 0px !important;
-    /* background-color: var(--channeltextarea-background); */
+  position: absolute !important;
+  bottom: 54px !important;
+  left: 0px !important;
+  /* background-color: var(--channeltextarea-background); */
 }
 
 /* end chat input */
 
 /* Replace the vencord settings donation banner image */
 img[role="presentation"] {
-    content: url('https://github.durpy.dev/public/images/caramel-kikuri-transparent.gif') !important;
-    transform: rotate(0deg) !important;
+  content: url("https://github.durpy.dev/public/images/caramel-kikuri-transparent.gif") !important;
+  transform: rotate(0deg) !important;
 }
