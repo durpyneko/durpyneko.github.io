@@ -26,6 +26,12 @@
   --interactive-muted: var(--icon-muted);
 }
 
+/* rounded top corners */
+[class^="panels_"] {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
 /* Element Swap (Accent Colors) */
 :root:root {
   --accent-h: 332;
@@ -106,15 +112,15 @@ span[class^="botTag"]::after {
 }
 
 /* replace titlebar wordmark */
-[class^="wordmark_"] {
-  display: none;
+[class^="wordmark"] {
+  display: none !important;
 }
 
-[class^="titleBar_"]::after {
-  content: "‎ ‎ Kikuri <3";
-  color: rgba(255, 255, 255, 0.5);
-  position: fixed;
-  left: 0;
+[class*="titleBar"]::after {
+  content: "‎ ‎ Hiroi Kikuri <3" !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  position: fixed !important;
+  left: 0 !important;
 }
 
 .markup_a7e664 a {
