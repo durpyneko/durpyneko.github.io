@@ -123,7 +123,7 @@ span[class^="botTag"]::after {
   left: 0 !important;
 }
 
-.markup_a7e664 a {
+[class*="markup"] a {
   color: #8358b7 !important;
 }
 
@@ -139,23 +139,26 @@ span[class^="botTag"]::after {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-
-.channelTextArea_c2094b {
+[class^="channelTextArea"] {
   margin-bottom: 0px !important;
 }
 
-.scrollableContainer_ff917f {
+[class^="scrollableContainer"] {
   border-radius: 0px !important;
   padding: 5px !important;
 }
 
-.form_d8a4a1:after {
+[class^="form"]:after {
   background: none !important;
 }
 
-.typing__6fd1d {
+[class*="formWithLoadedChatInput"] {
+  padding: 0 !important;
+}
+
+[class^="typing"] {
   position: absolute !important;
-  bottom: 54px !important;
+  bottom: 27px !important;
   left: 0px !important;
   /* background-color: var(--channeltextarea-background); */
 }
