@@ -17,7 +17,6 @@
 :root {
   --bg-opacity: 0.2;
   --brand-experiment: rgb(170, 10, 162);
-  --bg-image-url: url(https://github.durpy.dev/public/images/dc-bg.jpg);
 }
 
 :root {
@@ -107,11 +106,11 @@ span[class^="botTag"]::after {
 }
 
 /* replace titlebar wordmark */
-.wordmark_a934d8 {
+[class^="wordmark_"] {
   display: none;
 }
 
-.titleBar_a934d8::after {
+[class^="titleBar_"]::after {
   content: "‎ ‎ Kikuri <3";
   color: rgba(255, 255, 255, 0.5);
   position: fixed;
@@ -130,7 +129,7 @@ span[class^="botTag"]::after {
 /* end theme */
 
 /* chat input */
-.form_d8a4a1 {
+[form^="form_"] {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
