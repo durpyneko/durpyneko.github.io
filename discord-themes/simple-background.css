@@ -12,8 +12,8 @@
 
 [class^="bg_"] {
   background-image: var(--bg-image-url);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: var(--bg-image-pos);
+  background-repeat: var(--bg-image-rep);
+  background-size: var(--bg-image-size);
   opacity: var(--bg-opacity);
 }
