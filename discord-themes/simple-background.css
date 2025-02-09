@@ -10,7 +10,7 @@
   background: none !important;
 }
 
-[div^="bg_"] {
+[class^="bg_"] {
   background-image: var(--bg-image-url);
   background-position: center center;
   background-repeat: no-repeat;
